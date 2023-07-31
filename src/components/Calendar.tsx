@@ -1,5 +1,6 @@
 import React from "react";
 import {Weekday, Date} from '../../types'
+import { monthDates } from "../configs/MonthDays";
 import { Weekdays } from "../configs/Weekdays";
 
 export const Calendar: React.FC<{}> =({}) => {
